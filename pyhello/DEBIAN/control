@@ -1,0 +1,13 @@
+Package: pyhello
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Shane <shane@hexsave.com>
+Original-Maintainer: Shane <shane@hexsave.com>
+Depends: libc6 (>= 2.14)
+Conflicts: hello-traditional
+Breaks: hello-debhelper (<< 2.9)
+Replaces: hello-debhelper (<< 2.9), hello-traditional
+Section: devel
+Priority: optional
+Description: Hello World!!!!
+
