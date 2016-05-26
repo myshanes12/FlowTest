@@ -1,7 +1,7 @@
 from mockito import mock, verify
 import unittest
 
-from hello import hellow
+from hello import hello
 
 class HelloWorldTest(unittest.TestCase):
     def test_should_issue_hello_world_message(self):
