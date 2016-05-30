@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#if ps ax |grep -v grep | grep pyhello > /dev/null
+#then
+#    echo "running"
+#    pkill pyhello
+#    echo $r
+#else
+#    echo "nothing"
+#
+#fi
+
+if pgrep pyhello > /dev/null
+then 
+    pkill pyhello
+
+fi
